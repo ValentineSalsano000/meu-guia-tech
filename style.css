@@ -1,0 +1,65 @@
+/* seletor da página */
+body {
+    font-family: Arial, sans-serif;
+    /* define a fonte, se nao tiver arial usa sans */
+    line-height: 1.6; 
+    /* espaçamento entre as linhas */
+    margin: 0; 
+    /* remove as bordas brancas padrão do navegador */
+    padding: 0; 
+    /* remove espaços internos padrão */
+    background-color: #c6dee6; 
+    /* define uma cor de fundo azul bem clarinho */
+}
+
+/* estiliza a caixa do cabeçalho */
+header {
+    background: #1c6c77; 
+    /* fundo verde agua meio escuro */
+    color: #fff; 
+    /* cor do texto branca */
+    padding: 1rem; 
+    /* espaçamento interno para o texto não encostar nas bordas */
+    text-align: center; 
+    /* centraliza o título e o menu */
+}
+
+/* estiliza a lista dentro do menu */
+nav ul {
+    list-style: none; 
+    /* tira as bolinhas automáticas da lista */
+    padding: 0; 
+    /* remove o recuo da lista */
+}
+
+/* estiliza cada item (link) do menu */
+nav ul li {
+    display: inline; 
+    /* faz os links ficarem um ao lado do outro, em vez de um embaixo do outro */
+    margin: 0 15px; 
+    /* da um espaço lateral entre os links */
+}
+
+/* estiliza especificamente a tag de link (a) */
+nav ul li a {
+    color: white; 
+    /* cor do link branca */
+    text-decoration: none; 
+    /* tira o sublinhado que vem por padrão nos links */
+    font-weight: bold; 
+    /* deixa a letra em negrito */
+}
+
+/* estiliza a caixa principal de conteúdo */
+main {
+    padding: 20px; 
+    /* espaço entre o texto e a borda da caixa */
+    max-width: 800px; 
+    /* impede que o texto fique largo demais em telas grandes */
+    margin: 20px auto; 
+    /* centraliza a caixa no meio da tela */
+    background: rgb(222, 238, 238); 
+    /* fundo branco com pouco teor de azul para contrastar com o azul do body */
+    border-radius: 8px; 
+    /* arredonda levemente as pontas da caixa */
+}
