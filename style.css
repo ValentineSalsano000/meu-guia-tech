@@ -62,4 +62,82 @@ main {
     /* fundo branco com pouco teor de azul para contrastar com o azul do body */
     border-radius: 8px; 
     /* arredonda levemente as pontas da caixa */
+
 }
+
+    /* --- estilo do glossario ( abas ) --- */
+
+/* estiliza a caixa principal do termo */
+details {
+    background-color: #ffffff;
+    /* cor do fundo */
+    border: 1px solid #ccc;
+    /* cor da bordinha */
+    margin-bottom: 10px;
+    /* espaço entre uma aba e outra */
+    padding: 10px;
+    /* Espaço interno */
+    border-radius: 5px;
+    /* arredonda as pontinhas */
+}
+
+/* estiliza o título clicável */
+summary {
+    font-weight: bold;
+    /* deixa a palavra em negrito */
+    cursor: pointer;
+    /* faz o mouse virar a "mãozinha" */
+    outline: none;
+    /* tira aquele quadrado azul ao clicar */
+}
+
+/* estiliza o texto que aparece quando a aba abre */
+details p {
+    margin-top: 10px;
+    /* afasta o texto do título */
+    color: #555;
+    /* cor do texto */
+    border-top: 1px solid #eee;
+    /* linha fininha para separar o título do texto */
+    padding-top: 10px;
+}
+
+/* faz com que a tela deslize suavemente quando você clica no menu */
+html {
+    scroll-behavior: smooth; 
+}
+
+/* estilo do sub-menu de temas */
+.sub-menu {
+    background-color: #ddd; 
+    /* cor do fundo*/
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    /* faz o menu "grudar" no topo enquanto você desce a página */
+    top: 0; 
+    z-index: 100;
+    /* garante que o menu fique por cima de tudo */
+}
+
+.sub-menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* estilo para cada mini página (seção) */
+.tema-bloco {
+    min-height: 80vh;
+    /* faz cada seção ocupar quase a tela toda (80% da altura) */
+    padding: 60px 20px;
+    border-bottom: 2px solid #eee;
+    /* linha que separa um tema do outro */
+}
+
+/* cores das sessoes */
+#hardware { background-color: #ffffff; }
+#software { background-color: #f9f9f9; }
+#algoritmos { background-color: #ffffff; }
+
